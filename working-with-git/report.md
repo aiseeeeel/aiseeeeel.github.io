@@ -8,7 +8,7 @@ $ git init
 Initialized empty Git repository in D:/repo/.git/
 ```
 Инициализирует git (появляется папка .git).
-
+<br>
 2. 
 ```
 $ git status
@@ -253,3 +253,39 @@ Deleted branch branch (was 6ff16fa).
 
 
 ## Работа в GitHub Desktop
+
+1. 'git init'
+![](screenshots/ghd-create-repo.png)
+
+2. 'git add file.txt'
+Галочками в чекбоксах отмечаются stage файлы.
+![](screenshots/ghd-stage.png)
+
+3. 'git commit -m "First file"'
+![](screenshots/ghd-commit.png)
+
+4. 'git push'
+![](screenshots/ghd-push.png)
+![](screenshots/ghd-push-result.png)
+
+5. 'git pull'
+Сначала изменяю файл на GitHub.
+![](screenshots/ghd-pull.png)
+![](screenshots/ghd-pull-result.png)
+
+6. 'git branch branch'
+![](screenshots/ghd-create-branch.png)
+Переключение между ветками осуществляется нажатием.
+![](screenshots/ghd-branch-switch.png)
+
+7. 'rm -r folder' и 'git commit -m 'Delete folder and file''
+![](screenshots/ghd-delete-file.png)
+
+8. 'git merge branch'
+Сначала переключаемся на главную ветку.
+![](screenshots/ghd-merge-1.png)
+Выбираем ветку для слияния.
+![](screenshots/ghd-merge-2.png)
+
+9. git branch -d branch
+![](screenshots/ghd-delete-branch.png)
