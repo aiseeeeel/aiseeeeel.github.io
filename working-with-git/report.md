@@ -279,7 +279,7 @@ Deleted branch branch (was 6ff16fa).
 
 ## Работа в GitHub Desktop
 
-1. 'git init'
+1. 'git init'    
 ![](images/ghd-create-repo.png)
 <br>
 <br>
@@ -321,6 +321,7 @@ Deleted branch branch (was 6ff16fa).
 <br>
 <br>
 8. 'git merge branch'
+
 Сначала переключаемся на главную ветку.
 ![](images/ghd-merge-1.png)
 Выбираем ветку для слияния.
