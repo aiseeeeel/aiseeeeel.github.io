@@ -9,6 +9,9 @@ Initialized empty Git repository in D:/repo/.git/
 ```
 Инициализирует git (появляется папка .git).
 
+
+
+
 2. 
 ```
 $ git status
