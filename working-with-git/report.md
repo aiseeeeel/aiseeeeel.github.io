@@ -280,51 +280,51 @@ Deleted branch branch (was 6ff16fa).
 ## Работа в GitHub Desktop
 
 1. 'git init'
-![](screenshots/ghd-create-repo.png)
+![](images/ghd-create-repo.png)
 <br>
 <br>
 
 2. 'git add file.txt'
 Галочками в чекбоксах отмечаются stage файлы.
-![](screenshots/ghd-stage.png)
+![](images/ghd-stage.png)
 <br>
 <br>
 
 3. 'git commit -m "First file"'
-![](screenshots/ghd-commit.png)
+![](images/ghd-commit.png)
 <br>
 <br>
 
 4. 'git push'
-![](screenshots/ghd-push.png)
-![](screenshots/ghd-push-result.png)
+![](images/ghd-push.png)
+![](images/ghd-push-result.png)
 <br>
 <br>
 
 5. 'git pull'
 Сначала изменяю файл на GitHub.
-![](screenshots/ghd-pull.png)
-![](screenshots/ghd-pull-result.png)
+![](images/ghd-pull.png)
+![](images/ghd-pull-result.png)
 <br>
 <br>
 
 6. 'git branch branch'
-![](screenshots/ghd-create-branch.png)
+![](images/ghd-create-branch.png)
 Переключение между ветками осуществляется нажатием.
-![](screenshots/ghd-branch-switch.png)
+![](images/ghd-branch-switch.png)
 <br>
 <br>
 
 7. 'rm -r folder' и 'git commit -m 'Delete folder and file''
-![](screenshots/ghd-delete-file.png)
+![](images/ghd-delete-file.png)
 
 <br>
 <br>
 8. 'git merge branch'
 Сначала переключаемся на главную ветку.
-![](screenshots/ghd-merge-1.png)
+![](images/ghd-merge-1.png)
 Выбираем ветку для слияния.
-![](screenshots/ghd-merge-2.png)
+![](images/ghd-merge-2.png)
 
 9. git branch -d branch
-![](screenshots/ghd-delete-branch.png)
+![](images/ghd-delete-branch.png)
