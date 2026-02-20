@@ -2,14 +2,17 @@
 
 ## Работа в коммандной строке
 
-1. ```
+1. 
+```
 $ git init
 Initialized empty Git repository in D:/repo/.git/
 ```
 Инициализирует git (появляется папка .git).
 
 
-2. ```$ git status
+2. 
+```
+$ git status
 On branch master
 
 No commits yet
@@ -18,7 +21,9 @@ nothing to commit (create/copy files and use "git add" to track)
 ```
 Отображает состояние каталога. Пока никакие действия не производились.
 
-3. ```$ touch file.txt
+3. 
+```
+$ touch file.txt
 
 $ nano file.txt
 
@@ -35,7 +40,9 @@ nothing added to commit but untracked files present (use "git add" to track)
 ```
 Файл создан, но еще не отслеживается системой (untracked).
 
-4. ```$ git add file.txt
+4. 
+```
+$ git add file.txt
 
 $ git status
 On branch master
@@ -48,7 +55,9 @@ Changes to be committed:
 ```
 Теперь файл отслеживаемый (unstaged)
 
-5. ```$ git commit -m "Fisrt file"
+5. 
+```
+$ git commit -m "Fisrt file"
 [master (root-commit) e5fd03f] Fisrt file
  1 file changed, 1 insertion(+)
  create mode 100644 file.txt
@@ -60,7 +69,9 @@ nothing to commit, working tree clean
 ```
 Фиксирует текущее состояние файла (staged)
 
-6. ```$ nano file.txt
+6. 
+```
+$ nano file.txt
 
 $ git status
 On branch master
@@ -86,7 +97,9 @@ $ git commit -m "Fisrt file"
 ```
 Если еще раз изменить файл, он снова станет unstaged. Возвращаем файл в staging area. После коммита старый файл заменяется на новый изменённый.
 
-7. ```$ git remote add origin https://github.com/aiseeeeel/aiseeeeel.github.io.git
+7. 
+```
+$ git remote add origin https://github.com/aiseeeeel/aiseeeeel.github.io.git
 
 $ git push -u origin master
 Enumerating objects: 6, done.
@@ -107,7 +120,8 @@ branch 'master' set up to track 'origin/master'.
 ![](screenshots/push-cmd.png)
 
 8. Внести изменения в файл на сайте GitHub.
-```$ git pull origin master
+```
+$ git pull origin master
 remote: Enumerating objects: 5, done.
 remote: Counting objects: 100% (5/5), done.
 remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
@@ -134,7 +148,9 @@ index 8c48baf..a37f563 100644
 ```
 Вытягивает изменения в файле из удалённого репозитория. Вносит изменения в файл через командную строку. Сравнивает зафиксированный файл, скопированный с удалённого репозитория, и ещё не зафиксированные изменения в локальном репозитории.
 
-9. ```$ mkdir folder
+9. 
+```
+$ mkdir folder
 
 $ touch folder/bye.txt
 
@@ -175,7 +191,9 @@ index 0000000..e69de29
 ```
 Создаёт директорию и файл в ней. Делает файл отслеживаемым. Позволяет посмотреть на изменения, сделанные в staged.
 
-10. ```$ git reset folder/bye.txt
+10. 
+```
+$ git reset folder/bye.txt
 Unstaged changes after reset:
 M       file.txt
 
@@ -193,7 +211,9 @@ index 8c48baf..a37f563 100644
 ```
 Удаляет файл из staged. Файл остался прежним.
 
-11. ```$ git branch branch
+11. 
+```
+$ git branch branch
 
 $ git branch
   branch
@@ -205,7 +225,9 @@ Switched to branch 'branch'
 ```
 Создаёт новую ветку (копия репозитория). Показывает существующие ветки. Переключает на выбранную ветку.
 
-12. ```$ rm -r folder
+12. 
+```
+$ rm -r folder
 
 $ git commit -m 'Delete folder and file'
 On branch branch
@@ -213,7 +235,9 @@ nothing to commit, working tree clean
 ```
 Удаляет файлы внутри ветки.
 
-13. ```$ git checkout master
+13. 
+```
+$ git checkout master
 Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 
