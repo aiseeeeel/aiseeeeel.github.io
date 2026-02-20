@@ -1,6 +1,6 @@
 # Работа с Git
 
-## Работа в коммандной строке
+## Работа в командной строке
 
 1. 
 ```
@@ -52,7 +52,7 @@ Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
         new file:   file.txt
 ```
-Теперь файл отслеживаемый (unstaged)
+Теперь файл отслеживаемый (unstaged).
 
 5. 
 ```
@@ -66,7 +66,7 @@ On branch master
 nothing to commit, working tree clean
 
 ```
-Фиксирует текущее состояние файла (staged)
+Фиксирует текущее состояние файла (staged).
 
 6. 
 ```
