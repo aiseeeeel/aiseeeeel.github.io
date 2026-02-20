@@ -10,7 +10,6 @@ Initialized empty Git repository in D:/repo/.git/
 Инициализирует git (появляется папка .git).
 
 
-
 2. 
 ```
 $ git status
@@ -118,7 +117,7 @@ To https://github.com/aiseeeeel/aiseeeeel.github.io.git
 branch 'master' set up to track 'origin/master'.
 ```
 Добавляет удалённый репозиторий к локальному. Выгрузка файлов из локального репозиторию в удалённый.
-![](screenshots/push-cmd.png)
+![](images/push-cmd.png)
 
 8. Внести изменения в файл на сайте GitHub.
 ```
