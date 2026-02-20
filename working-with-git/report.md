@@ -8,7 +8,7 @@ $ git init
 Initialized empty Git repository in D:/repo/.git/
 ```
 Инициализирует git (появляется папка .git).
-<br>
+   
 2. 
 ```
 $ git status
