@@ -9,7 +9,8 @@ Initialized empty Git repository in D:/repo/.git/
 ```
 Инициализирует git (появляется папка .git).
 <br>
-<br>   
+<br>  
+
 2. 
 ```
 $ git status
@@ -19,7 +20,9 @@ No commits yet
 
 nothing to commit (create/copy files and use "git add" to track)
 ```
-Отображает состояние каталога. Пока никакие действия не производились.
+Отображает состояние репозитория. Пока никакие действия не производились.
+<br>
+<br>
 
 3. 
 ```
@@ -39,6 +42,8 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 ```
 Файл создан, но еще не отслеживается системой (untracked).
+<br>
+<br>
 
 4. 
 ```
@@ -54,6 +59,8 @@ Changes to be committed:
         new file:   file.txt
 ```
 Теперь файл отслеживаемый (unstaged).
+<br>
+<br>
 
 5. 
 ```
@@ -68,6 +75,8 @@ nothing to commit, working tree clean
 
 ```
 Фиксирует текущее состояние файла (staged).
+<br>
+<br>
 
 6. 
 ```
@@ -96,6 +105,8 @@ $ git commit -m "Fisrt file"
  1 file changed, 1 insertion(+), 1 deletion(-)
 ```
 Если еще раз изменить файл, он снова станет unstaged. Возвращаем файл в staging area. После коммита старый файл заменяется на новый изменённый.
+<br>
+<br>
 
 7. 
 ```
@@ -118,6 +129,8 @@ branch 'master' set up to track 'origin/master'.
 ```
 Добавляет удалённый репозиторий к локальному. Выгрузка файлов из локального репозиторию в удалённый.
 ![](images/push-cmd.png)
+<br>
+<br>
 
 8. Внести изменения в файл на сайте GitHub.
 ```
@@ -147,6 +160,8 @@ index 8c48baf..a37f563 100644
 +Hello.
 ```
 Вытягивает изменения в файле из удалённого репозитория. Вносит изменения в файл через командную строку. Сравнивает зафиксированный файл, скопированный с удалённого репозитория, и ещё не зафиксированные изменения в локальном репозитории.
+<br>
+<br>
 
 9. 
 ```
@@ -190,6 +205,8 @@ new file mode 100644
 index 0000000..e69de29
 ```
 Создаёт директорию и файл в ней. Делает файл отслеживаемым. Позволяет посмотреть на изменения, сделанные в staged.
+<br>
+<br>
 
 10. 
 ```
@@ -210,6 +227,8 @@ index 8c48baf..a37f563 100644
 +Hello.
 ```
 Удаляет файл из staged. Файл остался прежним.
+<br>
+<br>
 
 11. 
 ```
@@ -224,6 +243,8 @@ M       file.txt
 Switched to branch 'branch'
 ```
 Создаёт новую ветку (копия репозитория). Показывает существующие ветки. Переключает на выбранную ветку.
+<br>
+<br>
 
 12. 
 ```
@@ -234,6 +255,8 @@ On branch branch
 nothing to commit, working tree clean
 ```
 Удаляет файлы внутри ветки.
+<br>
+<br>
 
 13. 
 ```
@@ -250,38 +273,53 @@ Fast-forward
 $ git branch -d branch
 Deleted branch branch (was 6ff16fa).
 ```
-Переключает на главную ветку. Делает слияние с другой веткой. Удаляет ветку
-
+Переключает на главную ветку. Делает слияние с другой веткой. Удаляет ветку.
+<br>
+<br>
 
 ## Работа в GitHub Desktop
 
 1. 'git init'
 ![](screenshots/ghd-create-repo.png)
+<br>
+<br>
 
 2. 'git add file.txt'
 Галочками в чекбоксах отмечаются stage файлы.
 ![](screenshots/ghd-stage.png)
+<br>
+<br>
 
 3. 'git commit -m "First file"'
 ![](screenshots/ghd-commit.png)
+<br>
+<br>
 
 4. 'git push'
 ![](screenshots/ghd-push.png)
 ![](screenshots/ghd-push-result.png)
+<br>
+<br>
 
 5. 'git pull'
 Сначала изменяю файл на GitHub.
 ![](screenshots/ghd-pull.png)
 ![](screenshots/ghd-pull-result.png)
+<br>
+<br>
 
 6. 'git branch branch'
 ![](screenshots/ghd-create-branch.png)
 Переключение между ветками осуществляется нажатием.
 ![](screenshots/ghd-branch-switch.png)
+<br>
+<br>
 
 7. 'rm -r folder' и 'git commit -m 'Delete folder and file''
 ![](screenshots/ghd-delete-file.png)
 
+<br>
+<br>
 8. 'git merge branch'
 Сначала переключаемся на главную ветку.
 ![](screenshots/ghd-merge-1.png)
