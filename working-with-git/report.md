@@ -2,8 +2,7 @@
 
 ## Работа в коммандной строке
 
-1.
-```
+1. ```
 $ git init
 Initialized empty Git repository in D:/repo/.git/
 ```
