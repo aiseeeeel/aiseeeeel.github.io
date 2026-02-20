@@ -3,7 +3,8 @@
 ## Работа в коммандной строке
 
 1.
-```$ git init
+```
+$ git init
 Initialized empty Git repository in D:/repo/.git/
 ```
 Инициализирует git (появляется папка .git).
